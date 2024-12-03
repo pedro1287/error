@@ -52,13 +52,13 @@ from RVClient import Rlogin
 
 api_id = 10181262
 api_hash = "f52b5a057b73b9974eaa7403e04907f0"
-bot_token = "6202824203:AAFATP-Glk8izYFuC3IeUhTl2gUlSamtb3c"
+bot_token = "7734716785:AAFctjDvzpwsXa4oY2BAO-z97MHFoIWT9_4"
 Channel_Id = -1001799642467
 bot = Client("bot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
-boss = ['valdes_95','CMister1']#usuarios supremos
+boss = ['JAGB2021','CMister1']#usuarios supremos
 
 Configs = {"uclv":'',"gtm":"","uvs":"","ltu":"","vcl":"","uccfd":"","ucuser": "", "ucpass":"","uclv_p":"", "gp":None, "s":"On", 
-			'valdes_95': {'z': 99,"m":"e","a":"c","t":"y","gp":False},
+			'JAGB2021': {'z': 99,"m":"e","a":"c","t":"y","gp":False},
 			'CMister1': {'z': 99,"m":"e","a":"c","t":"y","gp":False}
 			}
 
@@ -69,8 +69,8 @@ id_de_ms = {} #id de mensage a borrar con la funcion de cancelar
 root = {} #directorio actual
 downlist = {} #lista de archivos descargados
 procesos = 0 #numero de procesos activos en el bot
-total_up = {'valdes_95':{'P':0,'S':0},'CMister1':{'P':0,'S':0},'valdes_95':{'P':0,'S':0}} #total en gb o megas subidos en bytes (int)
-rvs = {'valdes_95':{'h':'','u':'','p':'','up':'','z':0,'m':'m'}}
+total_up = {'JAGB2021':{'P':0,'S':0},'CMister1':{'P':0,'S':0},'valdes_95':{'P':0,'S':0}} #total en gb o megas subidos en bytes (int)
+rvs = {'JAGB2021':{'h':'','u':'','p':'','up':'','z':0,'m':'m'}}
 
 #inicio
 @bot.on_message(filters.command("start", prefixes="/") & filters.private)
